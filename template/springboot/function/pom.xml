@@ -8,13 +8,16 @@
         <version>2.3.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.bolingcavalry</groupId>
-    <artifactId>jdk8mavenspringboot</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>jdk8mavenspringboot</name>
+    <groupId>com.edu</groupId>
+    <artifactId>j8m3-springboot</artifactId>
+    <version>0.0.0-SNAPSHOT</version>
+    <name>j8m3-springboot</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
